@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
+// Desafio
 @Component
 public class ValidadorConsultasHorario implements ValidadorCancelarConsultas {
 
