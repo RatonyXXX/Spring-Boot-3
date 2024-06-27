@@ -39,8 +39,9 @@ public class ConsultaController {
     @Transactional
     @Operation(
             summary = "registra una consulta en la base de datos",
-            description = "",
-            tags = { "consulta", "post" })
+            description = "oli"
+          //  tags = { "consulta", "post" }
+    )
     public ResponseEntity agendar(@RequestBody @Valid DatosAgendarConsulta datos) throws ValidacionDeIntegridad {
 
         var response = service.agendar(datos);
